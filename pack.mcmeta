@@ -1,0 +1,7 @@
+{
+	"pack": {
+		"min_format": [88, 0],
+		"max_format": [94, 1],
+		"description": [{"text":"World Pregen 26.0.0","color":"#FFE73F"},{"text":" - ","color":"#6F6F6F"},{"text":"by ","color":"#9F9F9F"},{"text":"Redemoles","color":"#E73FFF"},{"text":" - ","color":"#6F6F6F"},{"text":"for ","color":"#9F9F9F"},{"text":"MC 1.21.11","color":"#3FE7FF"}]
+	}
+}
