@@ -8,7 +8,7 @@
 #
 
 execute as @a unless score @s wp.player.check matches 1.. run function wp:player/check
-execute as @a if score @s wp.player.disconnect matches 1.. run function wp:player/disconnect
+execute as @a if score @s wp.player.disconnect matches 1.. run function wp:player/check
 
 execute if score #overworld_working wp.pregen matches 1.. in minecraft:overworld run function wp:timer/pregen_working with storage wp:size pregen
 execute if score #the_nether_working wp.pregen matches 1.. in minecraft:the_nether run function wp:timer/pregen_working with storage wp:size pregen
