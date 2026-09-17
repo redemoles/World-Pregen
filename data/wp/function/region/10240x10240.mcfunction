@@ -6035,7 +6035,7 @@ $execute if score #$(dimension)_chunk_pregen_$(area) wp.pregen matches 3889 run 
 $execute if score #$(dimension)_chunk_pregen_$(area) wp.pregen matches 3904 run tellraw @a [$(text),{"text":"10240x10240 (191/192, 99%)"}]
 $execute if score #$(dimension)_chunk_pregen_$(area) wp.pregen matches 3920 run tellraw @a [$(text),{"text":"10240x10240 (192/192, 100%)"}]
 
-$execute if score #$(dimension)_chunk_pregen_$(area) wp.pregen matches 3920 run tellraw @a [{"text":"La zone de 10240x10240 a entièrement été générée"}]
+$execute if score #$(dimension)_chunk_pregen_$(area) wp.pregen matches 3920 run tellraw @a [{"text":"The 10240x10240 area has been fully generated."}]
 $execute if score #$(dimension)_chunk_pregen_$(area) wp.pregen matches 3920 run scoreboard players set #$(dimension)_working wp.pregen 0
 $execute if score #$(dimension)_chunk_pregen_$(area) wp.pregen matches 3920 run scoreboard players set #$(dimension)_finished wp.pregen 10
 $execute if score #$(dimension)_chunk_pregen_$(area) wp.pregen matches 3920 run scoreboard players set #$(dimension)_chunk_pregen_$(area) wp.pregen 0

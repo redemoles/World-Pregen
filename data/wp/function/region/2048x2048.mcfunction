@@ -301,7 +301,7 @@ $execute if score #$(dimension)_chunk_pregen_$(area) wp.pregen matches 1119 run 
 $execute if score #$(dimension)_chunk_pregen_$(area) wp.pregen matches 1122 run tellraw @a [$(text),{"text":"2048x2048 (47/48, 97%)","color":"#FFFFFF"}]
 $execute if score #$(dimension)_chunk_pregen_$(area) wp.pregen matches 1125 run tellraw @a [$(text),{"text":"2048x2048 (48/48, 100%)","color":"#FFFFFF"}]
 
-$execute if score #$(dimension)_chunk_pregen_$(area) wp.pregen matches 1126 run tellraw @a [{"text":"La zone de 2048x2048 a entièrement été générée"}]
+$execute if score #$(dimension)_chunk_pregen_$(area) wp.pregen matches 1126 run tellraw @a [{"text":"The 2048x2048 area has been fully generated."}]
 $execute if score #$(dimension)_chunk_pregen_$(area) wp.pregen matches 1126 run scoreboard players set #$(dimension)_working wp.pregen 0
 $execute if score #$(dimension)_chunk_pregen_$(area) wp.pregen matches 1126 run scoreboard players set #$(dimension)_finished wp.pregen 2
 $execute if score #$(dimension)_chunk_pregen_$(area) wp.pregen matches 1126 run scoreboard players set #$(dimension)_chunk_pregen_$(area) wp.pregen 0
